@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ListView Project</string>
+    <string name="brands">Clothing Brands</string>
+    <string name="pics">Pictures</string>
+    <string name="bs">Black Scale</string>
+    <string name="fog">Fear of God</string>
+    <string name="ow">"Off - White"</string>
+    <string name="reebok">Reebok</string>
+</resources>

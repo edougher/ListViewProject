@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aaron.listviewproject.Pictures">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/fogText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/fog"
+                android:textAlignment="center"
+                android:textSize="50sp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="1287dp"
+                android:contentDescription="@string/fog"
+                app:srcCompat="@drawable/fear_of_god"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="843dp" />
+
+            <TextView
+                android:id="@+id/offWhiteText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ow"
+                android:textAlignment="center"
+                android:textSize="50sp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="925dp"
+                android:contentDescription="@string/ow"
+                app:srcCompat="@drawable/off_white"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <TextView
+                android:id="@+id/backScaleText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bs"
+                android:textAlignment="center"
+                android:textSize="50sp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="1251dp"
+                android:contentDescription="@string/bs"
+                app:srcCompat="@drawable/black_scale" />
+
+            <TextView
+                android:id="@+id/reebokText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/reebok"
+                android:textAlignment="center"
+                android:textSize="50sp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/reebok"
+                app:srcCompat="@drawable/reebok_classics" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
